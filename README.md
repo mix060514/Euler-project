@@ -2,4 +2,4 @@
 
 https://projecteuler.net/archives
 
-I try to use r to resolve project Euler's problem.
+I try to use R to resolve project Euler's problem.
