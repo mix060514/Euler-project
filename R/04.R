@@ -32,17 +32,3 @@ for (i in 100:999) {
 }
 a <- sort(unique(a))
 a
-
-# 5
-i <- 1
-d <- 1:20
-a <- vector(mode = 'numeric', length = length(d))
-while (TRUE) {
-  a <- i %% d
-  # print(i, a)
-  if (sum(a) == 0) {
-    break()
-  }
-  i <- i + 1
-}
-i

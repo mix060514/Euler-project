@@ -1,15 +1,18 @@
 library(tidyverse)
 
-n <-  600851475143
+# n <-  600851475143
 # n <- 13195
+n <- 22
+
 i <- 1
 a <- NULL
 ends <- n
 while (i < ends) {
   if (n %% i == 0) {
     # cat(paste(i), '\n')
-    a <- c(a, i)
+    
     ends <- n / i
+    a <- c(a, i, ends)
   }
   i <- i + 1
 }
